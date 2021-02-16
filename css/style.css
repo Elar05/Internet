@@ -1,0 +1,40 @@
+/* Globales */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: "Lato";
+}
+img {
+  max-width: 100%;
+}
+
+/* Utilidades */
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/* HEADER */
+#header {
+  background-color: rgb(243, 71, 19);
+}
+.title-header {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
